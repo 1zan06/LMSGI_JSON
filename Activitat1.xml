@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<botiga>
+    <productes>
+        <producte id=S001>
+            <nom>Beats Studio Pro</nom>
+            <descripcio>Amb una plataforma acústica totalment personalitzada. Àudio Espacial personalitzat amb seguiment dinàmic del cap. Cancel·lació Activa del Soroll totalment adaptativa. Mode de So Ambient. Àudio sense pèrdua.Fins a 40 hores d'autonomia1 i millor compatibilitat amb Apple i Android.</descripcio>
+            <preu moneda ="EUR">399,95€</preu>
+            <categoria>Electrònica</categoria>
+            <disponibilitat>En Estoc</disponibilitat>
+            <imatge>https://www.beatsbydre.com/content/dam/beats/web/product/headphones/studiopro-wireless/pdp/product-carousel/sandstone/pc-studiopro-sandstone-thrqtr-right.jpg.large.2x.jpg</imatge>
+        </producte>
+        <producte id=S002>
+            <nom>Nike Dunk Low Retro</nom>
+            <descripcio>Les Nike Dunk Low Retro, que es van crear per al parquet i van acabar dominant els carrers, tornen amb revestiments impecables i els colors de l'equip originals. Aquesta icona de bàsquet ret homenatge a l'estil dels 80 amb una part superior de pell premium que ofereix un excel·lent look. La tecnologia del calçat moderna aporta la comoditat del segle XXI.</descripcio>
+            <preu moneda ="EUR">119,99€</preu>
+            <categoria>Calçat</categoria>
+            <disponibilitat>En Estoc</disponibilitat>
+            <imatge>https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4f6a28a8-6213-4bb9-b362-d5846aa39fae/NIKE+DUNK+LOW+RETRO.png</imatge>
+        </producte>
+    </productes>
+</botiga>
+<!--
+Explicació de l'estructura XML:
+Comentaris: Es poden veure comentaris a l'inici i al final per explicar l'objectiu del document i la llista de productes.
+Arrel (botiga): L'element arrel "botiga" és l'element principal que conté la informació de tots els productes.
+Llista de productes (productes): L'element "productes" conté tots els productes disponibles a la botiga.
+Producte: Cada producte és un element "producte", amb un atribut únic id que identifica de manera única cada producte.
+Detalls del producte:
+"nom": El nom del producte.
+"descripcio": Descripció breu del producte.
+"preu": El preu del producte, amb l'atribut moneda per especificar la moneda.
+"categoria": La categoria del producte (per exemple, "Electrònica" o "Informàtica").
+"disponibilitat": Estat de la disponibilitat del producte (pot ser "En estoc" o "Esgotat").
+"imatge": URL de la imatge associada al producte. 
+-->

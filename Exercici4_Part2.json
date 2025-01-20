@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Traducció document XML a JSON-->
+{
+    "devices" : [
+        {
+            "type": "computer",
+            "name": "Matebook",
+            "company": "Huawei",
+            "specs": {
+                "inches": 13,
+                "stock": true,
+                "price": {
+                    "value": 780,
+                    "currency": "\u20ac"
+                }
+            },
+            "internal_info": "C:\\Documents\\files\\matebook.json"
+        },
+        {
+            "type": "computer",
+            "name": "Titan",
+            "company": "Slimbook",
+            "specs": {
+                "inches": 15.6,
+                "stock": true,
+                "price": {
+                    "value": 1949,
+                    "currency": "$"
+                }
+            },
+            "slogans": [
+                "Slimbook Titan: Unleash Power in Every Pixel"
+                "Slimbook Titan: Powerhouse Performance"
+            ]
+        },
+        {
+            "type": "tablet",
+            "name": "Matepad",
+            "company": "Huawei",
+            "specs": {
+                "inches": 10.4,
+                "stock": false,
+                "price": {
+                    "value": null,
+                    "currency": "\u20ac"
+                }
+            },
+            "characeristics": []
+        },
+        {
+            "type": "smartphone",
+            "name": "P50 pocket",
+            "company": "Huawei",
+            "specs": {
+                "inches": 9,
+                "stock": true,
+                "price": {
+                    "value": 999,
+                    "currency": "\u20ac",
+                    "discount": 3
+                }
+            },
+            "characteristics": [
+                "5000mAH battery",
+                "Super AMOLED Plus",
+                "USB-C"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "pokemons": [
+        {
+            "id": 150,
+            "name": "Mewtwo",
+            "types": ["Psíquico"],
+            "weight": {
+                "value": 122,
+                "unit": "kg"
+            },
+            "height": {
+                "value": 2,
+                "unit": "m"
+            },
+            "stats": {
+                "speed": 5,
+                "strength": 5,
+                "precision": 5,
+                "resistance": 5
+            },
+            "movements": [
+                {
+                    "name": "Psíquico",
+                    "description": "Un fuerte ataque telequinètico",
+                    "power": 90,
+                    "contact": "https://www.wikidex.net/wiki/Psychic"
+                },
+                {
+                    "name": "Bola de Sombra",
+                    "description": "Lanza una mancha sombría",
+                    "power": 80,
+                    "contact": "https://www.wikidex.net/wiki/Shadow_Ball"
+                }
+            ],
+            "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png",
+            "evolutions": [
+                {
+                    "id": 151,
+                    "name": "Mega Mewtwo X",
+                    "level_required": null
+                },
+                {
+                    "id": 152,
+                    "name": "Mega Mewtwo Y",
+                    "level_required": null
+                }
+            ]
+        },
+        {  
+            "name": "Mew",
+            "types": ["Psíquico"],
+            "weight": {
+                "value": 4,
+                "unit": "kg"
+            },
+            "height": {
+                "value": 0.4,
+                "unit": "m"
+            },
+            "stats": {
+                "speed": 4,
+                "strength": 3,
+                "precision": 4,
+                "resistance": 3
+            },
+            "movements": [
+                {
+                    "name": "Pound",
+                    "descripton": "Un ataque físico básico",
+                    "power": 40,
+                    "contact": "https://www.wikidex.net/wiki/Pound"
+                },
+                {
+                    "name": "Transformar",
+                    "description": "Copia los movimientos y apariencia del enemigo",
+                    "power": null,
+                    "contact": "https://www.wikidex.net/wiki/Transform"
+                }
+            ],
+            "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/151.png",
+            "evolutions": []
+        }
+    ]
+}
